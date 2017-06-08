@@ -1,0 +1,107 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11 Nov, 2016, 9:00:00 AM
+    Author     : saravanan ls
+*/
+
+#clockdiv{
+    font-family: initial;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 26px;
+}
+
+#clockdiv > div{
+    padding: 10px;
+    border-radius: 3px;
+    background: #eee;
+    display: inline-block;
+    margin: 5px;
+}
+
+#clockdiv div > span{
+    padding: 15px;
+    border-radius: 3px;
+    /*background: #512DA8;*/
+    background: #e91e63;
+    display: inline-block;
+}
+
+.smalltext{
+    padding-top: 5px;
+    font-size: 16px;
+    color: #512DA8
+}
+
+#heartBeatId.blink {color:transparent;}
+
+#invite_header{
+    float: left;
+    /*margin-left: 30%;*/
+    text-align: center;
+    margin-top: 0%;
+    font-family: initial;
+    text-transform: capitalize;
+    /*color: #505393;*/ 
+    color: #3f48b5;
+    width: 100%;
+    
+}
+
+#invite_content{
+    float: left;
+    text-align: center;
+    font-family: initial;
+    margin-left: -1%;
+}
+
+@font-face{
+    font-family: greatVibes;
+    src:url(../../fonts/GreatVibes-Regular.ttf);
+}
+.capitalize_Class{
+    text-transform: capitalize;
+    letter-spacing: normal;
+    font-family: initial;
+}
+
+
+
+
+.paragraph_class{
+    font-weight: 300;
+    font-family: initial;
+    float: left;
+}
+
+
+
+.map-container {
+	width: 100%;
+	/*margin: 50px 0 3000px;*/
+}
+.map-container iframe{
+	width: 100%;
+	display: block;
+	pointer-events: none;
+	position: relative; /* IE needs a position other than static */
+}
+.map-container iframe.clicked{
+	pointer-events: auto;
+}
+
+.features li
+{
+      transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.features li:hover {
+cursor:pointer;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
